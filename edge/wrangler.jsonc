@@ -22,7 +22,7 @@
   ],
   // Must name this Worker itself: each scheduled refresh then runs in its
   // own invocation with its own CPU budget instead of sharing the cron's.
-  "services": [{ "binding": "SELF", "service": "test" }],
+  "services": [{ "binding": "SELF", "service": "subboost-edge" }],
   "durable_objects": {
     "bindings": [{ "name": "SUB_STORE", "class_name": "SubscriptionStore" }]
   },
