@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/wrangler/config-schema.json",
-  "name": "test",
+  "name": "subboost-edge",
   "main": "worker/index.ts",
   "compatibility_date": "2026-02-07",
   "vars": {
@@ -17,7 +17,7 @@
   "kv_namespaces": [
     {
       "binding": "SUB_KV",
-      "id": "58db6bee88a44a19a9457a465d6eb693"
+      "id": "3cdef042643a464eb170955084d66f79"
     }
   ],
   // Must name this Worker itself: each scheduled refresh then runs in its
